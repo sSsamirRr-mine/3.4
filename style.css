@@ -1,0 +1,259 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.li--three {
+    display: flex;
+    margin-left: 45px;
+    border-bottom: 3px solid #EF400F;
+    padding-bottom: 44px;
+    margin-top: 50px;
+    gap: 11px;
+}
+
+.li--three>a {
+    color: #EF400F;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+
+header {
+    padding: 50px 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #BCAAAA;
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+    width: 1840px;
+    height: 156px;
+    border: 1px;
+    position: fixed;
+    background: #FFFFFF;
+    margin: ;
+}
+
+ul {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #BCAAAA;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+li>a {
+    display: flex;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #BCAAAA;
+    text-decoration: none;
+    width: 69px;
+    height: 29px;
+    gap: 11px;
+
+}
+
+.button--one {
+    display: flex;
+    width: 219px;
+    height: 63px;
+    border-radius: 20px;
+    border: 3px solid #EF400F;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: center;
+    color: #EF400F;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 85, 85, 0);
+}
+
+
+main {
+    padding-top: 65px;
+    margin-left: 106px;
+    margin-right: 106px;
+}
+
+button {
+    background-color: #bcaaaa00;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Magazin {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    text-align: left;
+    color: #0D0C5C;
+
+}
+
+.Harid_qilingan {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    text-align: left;
+    color: #EF400F;
+
+}
+
+.input--search {
+    width: 386px;
+    height: 63px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: #000000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.Main--head {
+    display: flex;
+    gap: 98px;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.search {
+    display: flex;
+    gap: 22px;
+}
+
+.button--click {
+    width: 116px;
+    height: 63px;
+    border-radius: 20px;
+    background: #0D0D5B;
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+}
+
+.Tovarlar {
+    background: #FFFFFF;
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Tovarlar>img {
+    width: 184px;
+    height: 118px;
+    margin-top: 44px;
+}
+
+.p--one {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000AB;
+
+}
+
+.p--two {
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 15.73px;
+    font-size: 13px;
+    color: #000000BF;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.Tovarlar>h4 {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+
+}
+
+.main {
+    margin: 121px 100px 39px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+footer {
+    display: flex;
+    border: 1px solid #BCAAAA4F;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17.9px 0px #00000040;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    border: 1px;
+    padding: 0 95px;
+}
+
+footer>p {
+    color: black;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+
+}
+
+footer>a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000;
+
+}
